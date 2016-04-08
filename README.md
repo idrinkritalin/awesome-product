@@ -1,5 +1,3 @@
-# awesome-product
-
 AWESOME PRODUCT - UI TEST
 ==============
 
@@ -16,6 +14,6 @@ Feel free to use for your personal projects, fork, star or tweak as you wish.
 - CSS3
 - SCSS
 - JS
-- PLACEHOLDER IMGS
+- PLACEHOLDER IMGs
 
 This is also my first repo on GitHub, so don't be hard with me.
