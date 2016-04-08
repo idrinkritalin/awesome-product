@@ -14,6 +14,19 @@ Feel free to use for your personal projects, fork, star or tweak as you wish.
 - CSS3
 - SCSS
 - JS
-- PLACEHOLDER IMGs
+- IMGs
+
+Here is the demo
+--------------
+
+[DEMO](http://www.idrinkritalin.it/demo/)
 
 This is also my first repo on GitHub, so don't be hard with me.
+
+
+Follow me
+--------------
+
+[Facebook](https://www.facebook.com/idrinkritalin/)
+[Twitter](https://twitter.com/idrinkritalin)
+[Behance](https://www.behance.net/idrinkritalin)
