@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UI TEST - STEFANO VELTRI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/autoloader.css">
+  </head>
+  <body>
+    <div id="container">
+      <header class="title">
+        <span class="title__desktop">Desktop version</span>
+        <span class="title__mobile">Mobile version</span>
+      </header>
+
+      <section id="item">
+        <div class="item__header">
+          <div class="item__header--left">
+            <div class="item__back">
+              <i class="fa fa-arrow-left"></i> Back to T-Shirts
+            </div>
+          </div>
+          <div class="item__header--right">
+            <div class="item__heart" id="item-heart">
+              <span class="heart-empty"><i class="fa fa-heart-o"></i></span>
+              <span class="heart-full"><i class="fa fa-heart"></i></span>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div class="item__image">
+          <figure class="item__image__wrapper">
+            <img src="img/tee.jpg" alt="item image" id="item__img">
+          </figure>
+        </div>
+        <section class="item__details">
+          <h3 class="item__title">Expensive Polygons</h3> 
+          <div class="item__status">NEW</div>
+          
+          <div class="clear"></div>
+
+          <span class="item__collection">Spring summer collection</span>
+
+          <div class="clear"></div>
+
+          <div class="item__price">330€</div>
+          <div class="item__price item__price--striked">350€</div>
+
+          <div class="clear"></div>
+
+          <div class="item__tabs">
+
+            <nav class="item__tabs__header" id="tabs-header">
+              <a href="#description" class="item__tabs__tab item__tabs__selected" id="item--description">Description</a>
+              <a href="#details" class="item__tabs__tab" id="item--details">Details</a>
+
+              <div class="clear"></div>
+            </nav>
+
+            <article class="item__tabs__description item__tabs--visible" id="tab-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p> 
+              <p>Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+            </article>
+
+            <article class="item__tabs__description" id="tab-details">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.</p>
+              <p>Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+          </div>
+
+          <div class="item__type">
+            <p class="item__type__title">Type</p>
+
+            <nav class="item__type__list" id="item-type">
+              <a href="#tee" class="item__list__first item__list__selected">Tee</a>
+              <a href="#tank" class="item__list__middle">Tank</a>
+              <a href="#pillow" class="item__list__last">Pillow</a>
+            </nav>
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="item__cta">
+            <i class="fa fa-shopping-cart"></i> Add to cart
+          </div>
+        </section>
+      </section>
+    </div>
+    <!-- JS  -->
+    <script src="js/core.js"></script>
+  </body>
+</html>

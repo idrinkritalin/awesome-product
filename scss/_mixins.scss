@@ -1,0 +1,25 @@
+// _mixins.scss
+
+@mixin desktop-version() {
+  @media screen and (min-width: $break-large) {
+    @content;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin vertical-align($height) {  
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  height: $height;
+
+  margin: auto;
+}
